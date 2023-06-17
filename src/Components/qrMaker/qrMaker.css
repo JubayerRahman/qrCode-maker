@@ -1,0 +1,123 @@
+.generatorSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.generationForm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 7vh;
+}
+.codemakerInput{
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'JetBrains Mono', monospace;
+    color: #282c34;
+    border: 2px solid #282c34;
+    border-bottom: 6px solid #282c34;
+    border-radius:5px;
+    width: 65vw;
+}
+::placeholder{
+    font-family: 'JetBrains Mono', monospace;
+    color: #282c34
+}
+.generateButton{
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 20px;
+    background-color: #282c34;
+    border: 2px solid #282c34;
+    border-bottom: 4px solid #282c34;
+    border-radius:5px;
+    color: rgb(163,255,174);
+    /* border:none; */
+    width: 20vw;
+    padding: 10px;
+    margin-left: 15px;
+    transition: all 0.3s ease-out;
+}
+.generateButton:hover{
+    background-color: white;
+    color: #282c34;
+}
+.PlaceholderImg{
+    display: flex;
+    width: 30vw;
+    width: 30vh;
+}
+.codeImg{
+    margin-top: -3vh;
+    width: 20vw;
+}
+.myIdea{
+    width: 50vw;
+}
+.qrColorBtns{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+.qrColorBtns button{
+    width: 5vw;
+    height: 10vh;
+    border-radius: 10px;
+    border: none;
+}
+.colorNote{
+    /* text-align: left; */
+    margin-top: 10px;
+}
+.qrblur{
+    background-color: #282c34;
+}
+.green{
+    background-color: greenyellow;
+}
+.red{
+    background-color: red;
+}
+.downLoadlink{
+    color: #282c34;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #282c34;
+    border-bottom: 6px solid #282c34;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 25vh;
+}
+.PlaceholderImgHide{
+    display: none;
+}
+@media (max-width:768px) {
+    .generateButton{
+        font-size: 12px;
+        margin-left: 10px;
+        width: 25vw;
+    }
+    ::placeholder{
+        font-size: 18px;
+    }
+    .codeImg{
+        margin-top: -4vh;
+        width: 80vw;
+    }
+    .myIdea{
+        width: 95%;
+    }
+    .qrColorBtns{
+        width: 95%;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 20px;
+    }
+    .qrColorBtns button{
+        width: 10vw;
+        height: 5vh;
+        border-radius: 10px;
+        border: none;
+    }
+}

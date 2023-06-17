@@ -1,0 +1,68 @@
+.devDEscription, .devDEscriptionBangla{
+    text-align: justify;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #282c34;
+    border-bottom: 4px solid #282c34;
+    border-left: 6px solid #282c34;
+    display: block;
+}
+.devDEscriptionBangla, .BanSocial{
+    font-family: 'Mina', sans-serif;
+}
+.devDEscriptionHide , .devDEscriptionBanglaHide {
+    display: none;
+}
+
+.social{
+    background-color: rgb(163,255,174);
+    /* margin: 10px; */
+    margin-top: 10px;
+    margin-bottom: 20vh;
+    padding: 20px;
+    width: 100%;
+}
+
+.socialLinks{
+    /* width: 100%; */
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #282c34;
+    border-bottom: 4px solid #282c34;
+    border-left: 6px solid #282c34;
+    display: flex;
+    justify-content: space-evenly;
+}
+.transLateBtnB, .transLateBtnE{
+    background-color: white;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid #282c34;
+    border-bottom: 4px solid #282c34;
+    border-left: 6px solid #282c34;
+}
+.transLateBtnB{
+    font-family: 'Mina', sans-serif;
+}
+.socialLinks button{
+    background-color: rgb(163,255,174);
+    border: none;
+    font-size: 20px;
+    color: #282c34;
+}
+.socialLinks button a{
+    color: #282c34;
+}
+.socialLinks button a:hover{
+    color: white;
+    font-size: 25px;
+}
+.engSocial , .BanSocial {
+    display: block;
+}
+.engSocialHide , .BanSocialHide {
+    display: none;
+}
