@@ -23,6 +23,7 @@
     border-radius: 10px;
     border: 2px solid rgb(163,255,174);
     border-bottom: 4px solid rgb(163,255,174);
+    word-wrap: break-word;
 }
 .ResultSection button{
     margin-bottom:20px ;
